@@ -1,0 +1,23 @@
+.total{
+    height: 80px;
+    background-color: #DAB88B;
+}
+
+.btn{
+    background-color: #7882A4;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 6px;
+    border: 1px solid black;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px 0 0;
+}
+
+.totalBTN{
+    display: flex;
+    justify-content: flex-end;
+}

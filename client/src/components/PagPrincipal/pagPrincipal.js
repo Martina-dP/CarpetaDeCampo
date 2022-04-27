@@ -1,11 +1,14 @@
 import React from "react";
+import Nav from "../Nav/Nav";
+import style from "./PagPrincipal.module.css";
 
-function pagPrincipal () {
+function PagPrincipal () {
     return (
-        <div>
-            <h1> Bienvenidos </h1>
+        <div className={style.total}>
+            <Nav/>
+            bienvenido a la pagina principal
         </div>
     )
 }
 
-export default pagPrincipal;
+export default PagPrincipal;
